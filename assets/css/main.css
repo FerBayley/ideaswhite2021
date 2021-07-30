@@ -1,0 +1,260 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.hero {
+    background: url(../../assets/images/hero.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: -150px;
+}
+.nosotros {
+    height: auto;
+    margin-bottom: 100px;
+}
+.nosotros h2 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.nosotros p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+.nosotros a {
+    text-decoration: none;
+    color: grey;
+}
+.nosotros a:hover {
+    text-decoration: none;
+    color: #333;
+}
+.nosotros img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.preFooter {
+    background: url(../../assets/images/imagen-footer.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.navbar {
+    background-color: transparent !important;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navbar ul li a {
+    color: black !important;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    border: solid 2px transparent;
+    border-radius: 5px;
+}
+.navbar ul li a:hover {
+    color: black !important;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.gris {
+    background-color: #F6F6F6;
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+.gris article p {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: left;
+    text-align: left;
+}
+.gris article p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.gris a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.tituloDescripcion {
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contenedorTitulo  {
+    margin-top: 50px;
+}
+.contenedorTitulo h2  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.footer {
+    background-color: black;
+    height: 350px;
+}
+.footer h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 140px;
+}
+.pie {
+    background-color: #AAA8A8;
+    height: auto;
+    color: black;
+    padding: 20px;
+}
+.pie a {
+    color: #333;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.pie a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+.logo {
+    padding-top: 20px;
+}
+.logo img {
+    height: auto;
+    width: 60%;
+}
+.textSpace {
+    padding-left: 20px;
+}
+.copy h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+    font-weight: bolder;
+    color: black;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 100px;
+    margin-top: 50px;
+}
+.btnCopy {
+    float: left !important;
+    width: 50%;
+    margin-top: 30px;
+    height: 60px;
+    border: solid 2px red;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: red;
+    font-weight: bold;
+}
+.copy p {
+    color: grey;
+    text-align: left;
+    margin-top: 30px;
+    padding-right: 20px;
+    margin-bottom: -15px;
+}
+.footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 120px;
+}
+.contenidoAdtech {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 100px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+  }
+  .btn-whatsapp:hover {
+    opacity: 0.5;
+  }
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+*/
+
+
+@media (min-width: 320px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1440px) {}
+
+@media (min-width: 2560px) {}
