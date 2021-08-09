@@ -19,7 +19,7 @@
 
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid logo">
           <a class="navbar-brand" href="index.html">
               <img src="assets/images/logo.png" alt="Ideas White Logo">
@@ -27,22 +27,25 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" id="top">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+                <a class="nav-link" href="#servicios">SERVICIOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                <a class="nav-link" href="#nosotros">NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="sumate.html">SUMATE</a>
+                <a class="nav-link" href="healthtech.html">HEALTHTECH</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">CONTACTO</a>
+                <a class="nav-link" href="#sumate">SUMATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">CONTACTO</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">BLOG</a>
@@ -54,53 +57,71 @@
     <!-- /NAVBAR -->
 
 
-    <!-- HEALTHTECH -->
-    <section class="cuerpo">
+    <!-- SERVICIOS -->
+    <section class="cuerpo" id="servicios">
         <div class="contrainer-fluid">
             <div class="row">
-                <div class="col-12 col-md-6 grisServicios textSpace">
-                    <article>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when 
-                            an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                    </article>
-                </div>
-                <div class="col-12 col-md-6 grisServicios">
-                    <h2 class="tituloDescripcion">Healthtech.</h2>
+                <div class="col">
+                    <h2 class="tituloDescripcion">HEALTHTECH.</h2>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /HEALTHTECH -->
 
-
-    <!-- CONTENT HEALTHTECH -->
-    <section class="contenidoHealthtech">
+    <section class="contenidoAdtech">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <article>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum necessitatibus, quod voluptates in facilis cum dolores ipsum quos quae cumque sequi totam neque inventore nesciunt? Quasi rerum ullam vitae!
+                            <i class="fas fa-arrow-circle-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum necessitatibus, quod voluptates in facilis cum dolores ipsum quos quae cumque.
+                            <br>
+                            <i class="fas fa-arrow-circle-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum necessitatibus, quod voluptates in facilis cum dolores ipsum quos quae cumque sequi 
+                            totam neque inventore nesciunt? Quasi rerum ullam vitae!
+                            <br>
+                            <i class="fas fa-arrow-circle-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum necessitatibus.
+                            <br>
+                            <i class="fas fa-arrow-circle-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            <br>
+                            <i class="fas fa-arrow-circle-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorum necessitatibus, quod voluptates in facilis cum 
+                            dolores ipsum quos quae cumque sequi 
+                            <br>
+                            totam neque inventore nesciunt? Quasi rerum ullam vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat culpa natus saepe officiis in expedita 
+                            consequuntur eaque cum porro cumque, sequi nisi numquam repellendus. Debitis, quasi! Nobis distinctio ea eveniet.
                         </p>
                     </article>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /CONTENT HEALTHTECH -->
+    <!-- /SERVICIOS -->
 
 
-    <section class="contenedorTitulo">
+
+    <!-- SEPARADOR -->
+    <section class="separador">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2>QUIENES SOMOS.</h2>
+                    <hr>
                 </div>
             </div>
         </div>
     </section>
+    <!-- /SEPARADOR -->
+
+
+
+<!-- NOSOTROS -->
+<section class="cuerpo" id="nosotros">
+    <div class="contrainer-fluid">
+        <div class="row">
+            <div class="col">
+                <h2 class="tituloDescripcion">Nosotros</h2>
+            </div>
+        </div>
+    </div>
+</section>
 
 
     <section class="nosotros">
@@ -144,6 +165,115 @@
             </div>
         </div>
     </section>
+<!-- /NOSOTROS -->
+
+    <!-- SUMATE -->
+    <section class="cuerpo" id="sumate">
+        <div class="contrainer-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="tituloDescripcion">SUMATE.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenidoSumate">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar Email">
+                        </div>
+                        <button type="submit" class="btnContacto">ENVIAR</button>
+                      </form>
+                </div>
+
+                <div class="col-12 col-md-6 ajusteColumna ajusteColumnaImagen">
+                    <img src="assets/images/sumate.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- SUMATE -->
+
+    <!-- CONTACTO -->
+    <section class="cuerpo" id="contacto">
+        <div class="contrainer-fluid">
+            <div class="row">
+                <div class="col">
+                    <h2 class="tituloDescripcion">CONTACTO.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenidoContacto">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <form>
+                                    <div class="mb-3">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre y apellido">
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Teléfono">
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                    </div>
+                                    <div class="mb-3">
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar Email">
+                                    </div>
+                                    <button type="submit" class="btnContacto">ENVIAR</button>
+                                  </form>
+                            </div>
+
+                            <div class="col-6 imagenForm">
+                                <img src="assets/images/manocel.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /CONTACTO -->
+
+
+<!-- HEALTHTECH -->
+<section class="health">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 gris healthtech">
+                <h2 class="tituloDescripcion">Healthtech.</h2>
+            </div>
+            <div class="col-12 col-md-6 gris">
+                <article>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when 
+                        an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                    <a href="healthtech.html">Lorem Ipsum is simply <i class="fas fa-long-arrow-alt-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /HEALTHTECH -->
 
 
     <!-- PREFOOTER -->
@@ -151,7 +281,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="tituloHealthtech">Healthtech.</h2>
+                    <h2 class="tituloHealthtech">Algun título.</h2>
                     <article>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -215,6 +345,8 @@
             </div>
         </div>
     </section>
+
+
 
     <!-- BOTON WHATSAPP -->
     <div class="btn-whatsapp">
